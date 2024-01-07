@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" 
+      rel="stylesheet">
+      
+  <title> Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <main>
+    <div class="add-no" >
+      <h2>Advice # <span id="adviceNo" ></span></h2>
+    </div>
+    <div class="body">
+      <div class="advice" id="advice"></div>
+      <div class="divider">
+        <img src="/images/pattern-divider-desktop.svg" 
+             class="desktop" alt="divider">
+        <img src="/images/pattern-divider-mobile.svg" 
+            class="mobile" alt="divider">
+      </div>
+    </div>
+    <div class="add-btn" >
+      <button>
+        <img src="/images/icon-dice.svg" id="generate" alt="dice">
+      </button>
+    </div>
+  </main>
+
+  <script src="/index.js"></script>
+  
+  
+</body>
+</html>
