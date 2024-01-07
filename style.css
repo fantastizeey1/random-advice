@@ -63,13 +63,13 @@ main{
     background-color: hsl(150, 100%, 66%);
 }
 @media (max-width: 400px) {
-    body{
-        width: 100%;
+     body{
+        width: 90%;
         height: 80vh;
     }
     main{
         margin-top: -100px;
-        max-width: 90%;
+        max-width: 80%;
     }
     .divider{
         position: absolute;
