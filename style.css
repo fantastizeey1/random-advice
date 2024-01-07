@@ -62,7 +62,7 @@ main{
     border-radius: 50%;
     background-color: hsl(150, 100%, 66%);
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
      body{
         width: 90%;
         height: 80vh;
